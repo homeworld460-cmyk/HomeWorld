@@ -37,6 +37,21 @@ Use this checklist to confirm that the four setup steps (GitHub repo, Git LFS, t
 
 ---
 
+## Troubleshooting
+
+**Error: `src refspec main does not match any` when running `git push -u origin main`**
+
+The repo’s default branch is `main`, but your clone may have created only a local `master` branch. Fix:
+
+```bash
+git branch -M main
+git push -u origin main
+```
+
+`git branch -M main` renames your current branch (e.g. `master`) to `main`; then the push succeeds.
+
+---
+
 ## Next step
 
 When all above are checked, Git setup is complete. For full developer setup (Engine, Plugins, assets, etc.), see [SETUP.md](SETUP.md).
