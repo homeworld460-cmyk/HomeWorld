@@ -22,3 +22,7 @@ Thumbs.db
 
 # Content-derived caches (if present later)
 Content/DerivedDataCache/
+
+# IDE / tooling
+.vs/
+UpgradeLog.htm

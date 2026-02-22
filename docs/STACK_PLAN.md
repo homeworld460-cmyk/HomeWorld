@@ -64,7 +64,7 @@ flowchart TB
 
 ## Layer 3 – Combat and Abilities
 
-- **Core:** Gameplay Ability System (GAS) – already enabled.
+- **Core:** Gameplay Ability System (GAS) – already enabled. Base ability and attribute classes are in C++; specific abilities and data (e.g. 3 survivor skills) in Blueprint.
 - **Recommended:** Blueprint-first (Ninja GAS Blueprint or similar) for 3 survivor skills in Act 1; extend for needs/buffs in Act 2 (family sim). Optional paid: Advanced ARPG Template (~$50) for PoE-style trees/combos.
 - **Phase:** Week 1 – 3 skills; Week 2 – GAS for relationship/needs if desired.
 
